@@ -362,7 +362,7 @@ export default class Headroom extends Component {
     let innerStyle = {
       position:
         this.props.disable || this.state.state === 'unfixed'
-          ? 'relative'
+          ? 'absolute'
           : 'fixed',
       top: 0,
       left: 0,
